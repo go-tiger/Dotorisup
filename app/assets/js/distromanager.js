@@ -4,7 +4,7 @@ const ConfigManager = require('./configmanager');
 
 // Old WesterosCraft url.
 // exports.REMOTE_DISTRO_URL = 'http://mc.westeroscraft.com/WesterosCraftLauncher/distribution.json'
-exports.REMOTE_DISTRO_URL = 'http://gotiger.ipdisk.co.kr:99/publist/HDD1/Launcher/Dotorisup/distribution.json';
+exports.REMOTE_DISTRO_URL = 'https://github.com/go-tiger/Launcher-distro-file/raw/main/Dotorisup/distribution.json';
 
 const api = new DistributionAPI(
     ConfigManager.getLauncherDirectory(),
